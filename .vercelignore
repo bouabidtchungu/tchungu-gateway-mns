@@ -1,0 +1,6 @@
+server/
+dist/index.js
+.manus-logs/
+node_modules/
+.git/
+.env.local
