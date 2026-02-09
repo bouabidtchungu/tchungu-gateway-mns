@@ -1,9 +1,6 @@
 {
-  "buildCommand": "pnpm build",
-  "outputDirectory": "dist/public",
+  "buildCommand": "npm install --legacy-peer-deps && npm run build",
+  "outputDirectory": "dist",
   "framework": "vite",
-  "env": {
-    "VITE_APP_TITLE": "TCHUNGU Digital Gateway",
-    "VITE_APP_ID": "tchungu-gateway"
-  }
+  "installCommand": "npm install --legacy-peer-deps"
 }
